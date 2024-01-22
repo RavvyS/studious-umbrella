@@ -1,0 +1,76 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.selcetAll{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 12px;
+    border-color: aliceblue;
+
+ 
+}
+
+img{
+ 
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.input-box{
+    width: 300px;
+    height: 30px;
+}
+
+.selcetAll input {
+    font-size: 20px;    
+    border-radius:15px;
+}
+
+
+label{
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    padding: 40px;
+    margin: ;
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    border-radius: 50%;
+}
+.selcetAll a {
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-size: 15px;
+     text-align: right;
+
+}
+
+.selcetAll a:hover{
+    text-decoration: underline;
+}
+
+.input-box ::placeholder{
+    text-align: center;
+    font-size: medium;
+}
+
+.btn-login{
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+
+    
